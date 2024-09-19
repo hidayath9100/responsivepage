@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(203, 203, 203);
+    font-size: 30px;
+    max-width: 500px;
+}
+ul{
+    list-style-image: -moz-linear-gradient(circle);
+    background:seashell;
+    padding:10px;
+}
+ul li{
+    background-image: url();
+    background: rgb(138, 132, 154);
+    /*margin-left: 25px;*/
+     padding:3px;
+     margin: 5px;
+}
+a.button:link,a.button:visited{
+    background-color: white;
+    color: black;
+    border:2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 25px;
+}
+a.button:hover,a.button:active{
+    background-color: rgba(51, 79, 120, 0.439);
+    color: white;
+    
+}
+
+div.cards{
+    width: 100%;
+    background-color: azure;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0,19);
+    margin-bottom: 30px;
+}
+div.caption{
+    text-align: center;
+    padding: 10px 20px;
+
+}
+img.thumb{
+    border: 1px solid lightblue;
+    border-radius: 5px;
+    padding: 5px;
+    width: 150px;
+
+}
+img.thumb:hover{
+    box-shadow: 0 0 10px 5px rgba(0,140,186,0.5);
+}
+
+
